@@ -5,4 +5,4 @@ curl -X POST -H 'Content-type: application/json' \
            "channel": "#website",
            "icon_emoji": ":tada:",
            }' \
-https://hooks.slack.com/services/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
+https://hooks.slack.com/services/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
