@@ -37,6 +37,7 @@ class StudentModel extends AbstractModel {
       class_id: class_id,
       class_name: class_name
     }
+    console.log("item params");
     const user_id = Util.getHeader("user_id", parmsHeader);
     var sql_str = `select * from students where stu_id = '${stu_id}'`;
     const students =await pool.query(sql_str);
